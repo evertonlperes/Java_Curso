@@ -1,0 +1,27 @@
+package Aula02;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class PrintNumerosPares {
+	
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Digite um numero: ");
+		int number = scanner.nextInt();
+		
+		for (int i = 0; i < 10; i++) {
+			
+			if(number%2 == 0) {
+				ArrayList<Integer> d = new ArrayList<Integer>();
+				d.add(number);
+				System.out.println("Par" + d);
+			}
+			
+		}
+		scanner.close();
+	}
+
+}

@@ -1,0 +1,28 @@
+package Aula02;
+
+import java.util.Scanner;
+
+public class TestarPessoa {
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		Pessoa pessoa = new Pessoa();
+		
+		System.out.println(pessoa);
+		
+		
+		/*
+		 * String nomeDigitado = scanner.next();
+		 * 
+		 * System.out.println("Digite o RG: "); int rgDigitado =
+		 * scanner.nextInt();
+		 * 
+		 * System.out.println("Digite o CPF: "); int cpfDigitado =
+		 * scanner.nextInt();
+		 */
+				
+		scanner.close();
+		
+		
+	}
+}

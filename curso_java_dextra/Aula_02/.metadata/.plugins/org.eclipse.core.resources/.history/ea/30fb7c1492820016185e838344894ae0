@@ -1,0 +1,14 @@
+package Aula02;
+
+public class Interruptor {
+	
+	private void Lampada() {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public void apertar(){
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package Aula02;
+
+public class Pessoa {
+	
+	String nome;
+	int rg;
+	int cpf;
+
+	public Pessoa(String nome, int rg, int cpf) {
+		
+	}
+}
+

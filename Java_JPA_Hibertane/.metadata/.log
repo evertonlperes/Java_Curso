@@ -1,0 +1,168 @@
+!SESSION 2016-11-05 12:49:52.409 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 12:50:54.092
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 12:50:54.123
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2016-11-05 12:52:39.888 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 13:43:40.142
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 13:43:40.173
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 13:44:01.137
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 13:44:01.152
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 13:49:35.649
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 13:49:35.654
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 13:59:00.433
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 13:59:00.442
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 14:02:20.792
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 14:02:20.796
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface.text 2 0 2016-11-05 14:06:37.613
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-11-05 14:06:37.613
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 14:10:06.200
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 14:10:06.205
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 14:10:09.428
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 14:10:09.431
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 14:12:09.203
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 14:12:09.210
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 14:12:53.793
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 14:12:53.806
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 14:13:31.504
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 14:13:31.508
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 14:15:44.981
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 14:15:45.000
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.core.resources 4 376 2016-11-05 14:15:45.023
+!MESSAGE Marker id 31 not found.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 14:19:22.927
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 14:19:22.932
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface.text 2 0 2016-11-05 14:19:45.501
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-11-05 14:19:45.502
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 14:20:10.355
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-05 14:20:10.362
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jpt.jpa.core 4 0 2016-11-05 14:37:50.856
+!MESSAGE 
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException
+	at java.lang.System.arraycopy(Native Method)
+	at org.eclipse.emf.common.util.BasicEList.toArray(BasicEList.java:255)
+	at org.eclipse.emf.ecore.util.EcoreEList.toArray(EcoreEList.java:219)
+	at org.eclipse.jpt.common.utility.internal.iterator.CloneListIterator.<init>(CloneListIterator.java:58)
+	at org.eclipse.jpt.common.utility.internal.iterator.IteratorTools.clone(IteratorTools.java:770)
+	at org.eclipse.jpt.common.utility.internal.iterable.LiveCloneListIterable.iterator(LiveCloneListIterable.java:60)
+	at org.eclipse.jpt.common.utility.internal.iterable.LiveCloneListIterable.iterator(LiveCloneListIterable.java:1)
+	at org.eclipse.jpt.jpa.core.internal.context.AbstractJpaContextModel$ContextContainer.sync(AbstractJpaContextModel.java:474)
+	at org.eclipse.jpt.jpa.core.internal.context.AbstractJpaContextModel$ContextContainer.synchronizeWithResourceModel(AbstractJpaContextModel.java:453)
+	at org.eclipse.jpt.jpa.core.internal.context.persistence.AbstractPersistenceUnit.syncProperties(AbstractPersistenceUnit.java:1190)
+	at org.eclipse.jpt.jpa.core.internal.context.persistence.AbstractPersistenceUnit.synchronizeWithResourceModel(AbstractPersistenceUnit.java:271)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.context.persistence.GenericPersistence.syncPersistenceUnits(GenericPersistence.java:167)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.context.persistence.GenericPersistence.synchronizeWithResourceModel(GenericPersistence.java:69)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.context.persistence.GenericPersistenceXml.syncPersistence(GenericPersistenceXml.java:134)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.context.persistence.GenericPersistenceXml.syncPersistence(GenericPersistenceXml.java:85)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.context.persistence.GenericPersistenceXml.synchronizeWithResourceModel(GenericPersistenceXml.java:81)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.context.GenericContextRoot.syncPersistenceXml(GenericContextRoot.java:123)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.context.GenericContextRoot.syncPersistenceXml(GenericContextRoot.java:100)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.context.GenericContextRoot.synchronizeWithResourceModel(GenericContextRoot.java:72)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.synchronizeContextModel(AbstractJpaProject.java:1920)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject$SynchronizeContextModelJobCommand.execute(AbstractJpaProject.java:1905)
+	at org.eclipse.jpt.common.core.internal.utility.command.RepeatingJobCommandWrapper.executeCommand(RepeatingJobCommandWrapper.java:211)
+	at org.eclipse.jpt.common.core.internal.utility.command.RepeatingJobCommandWrapper.execute_(RepeatingJobCommandWrapper.java:198)
+	at org.eclipse.jpt.common.core.internal.utility.command.RepeatingJobCommandWrapper$StartJobCommand.execute(RepeatingJobCommandWrapper.java:172)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.execute_(InternalJpaProjectManager.java:1202)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager$ClientJobCommandWrapper.execute(InternalJpaProjectManager.java:1182)
+	at org.eclipse.jpt.common.core.internal.utility.command.JobCommandJob.run(JobCommandJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 376 2016-11-05 16:28:15.252
+!MESSAGE Marker id 352 not found.
+
+!ENTRY org.eclipse.core.resources 4 376 2016-11-05 16:36:55.412
+!MESSAGE Marker id 359 not found.
+!SESSION 2016-11-05 16:37:50.212 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface.text 2 0 2016-11-05 16:42:04.569
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-11-05 16:42:04.575
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.core.resources 4 376 2016-11-05 16:51:43.745
+!MESSAGE Marker id 394 not found.

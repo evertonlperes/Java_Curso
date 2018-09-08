@@ -1,0 +1,22 @@
+package Aula02;
+
+import java.util.Scanner;
+
+public class TestaLampada {
+	
+	public static void main(String[] args) {
+			
+		Lampada lampada = new Lampada(60, "xpto");
+		Interruptor interruptor = new Interruptor(lampada);
+		
+		interruptor.apertar();
+		interruptor.apertar();
+		interruptor.apertar();
+		interruptor.apertar();
+		interruptor.apertar();
+		interruptor.apertar();
+		interruptor.apertar();
+		
+	}
+
+}

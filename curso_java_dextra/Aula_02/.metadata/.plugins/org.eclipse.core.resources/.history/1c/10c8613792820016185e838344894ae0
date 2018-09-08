@@ -1,0 +1,8 @@
+package Aula02;
+
+public class Interruptor {
+	
+	//Recebendo lampada da classe Lambada.
+	Lampada lampada;
+	
+}

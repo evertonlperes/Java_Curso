@@ -1,0 +1,178 @@
+package Aula02;
+
+import java.util.Scanner;
+
+public class ImprimeAno {
+	
+	public static void main(String[] args) {
+		
+Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Digite um numero: ");
+		
+		int diaSemana = scanner.nextInt();
+				
+		switch (diaSemana) {
+		
+		case 1:
+		
+			System.out.println("MÊS SELECIONADO : --> JANEIRO");
+			System.out.println("FEVEREIRO");
+			System.out.println("MARÇO");
+			System.out.println("ABRIL");
+			System.out.println("MAIO");
+			System.out.println("JUNHO");
+			System.out.println("JULHO");
+			System.out.println("AGOSTO");
+			System.out.println("SETEMBRO");
+			System.out.println("OUTUBRO");
+			System.out.println("NOVEMBRO");
+			System.out.println("DEZEMBRO");
+			
+			break;
+			
+		case 2:
+			
+			System.out.println("MÊS SELECIONADO : --> FEVEREIRO");
+			System.out.println("FALTAM OS MESES ABAIXO...");
+			System.out.println("MARÇO");
+			System.out.println("ABRIL");
+			System.out.println("MAIO");
+			System.out.println("JUNHO");
+			System.out.println("JULHO");
+			System.out.println("AGOSTO");
+			System.out.println("SETEMBRO");
+			System.out.println("OUTUBRO");
+			System.out.println("NOVEMBRO");
+			System.out.println("DEZEMBRO");
+			
+			break;
+			
+		case 3:
+			
+			System.out.println("MÊS SELECIONADO : --> MARÇO");
+			System.out.println("FALTAM OS MESES ABAIXO...");
+			System.out.println("ABRIL");
+			System.out.println("MAIO");
+			System.out.println("JUNHO");
+			System.out.println("JULHO");
+			System.out.println("AGOSTO");
+			System.out.println("SETEMBRO");
+			System.out.println("OUTUBRO");
+			System.out.println("NOVEMBRO");
+			System.out.println("DEZEMBRO");
+			
+			break;
+			
+		case 4:
+			
+			System.out.println("MÊS SELECIONADO : --> ABRIL");
+			System.out.println("FALTAM OS MESES ABAIXO...");
+			System.out.println("MAIO");
+			System.out.println("JUNHO");
+			System.out.println("JULHO");
+			System.out.println("AGOSTO");
+			System.out.println("SETEMBRO");
+			System.out.println("OUTUBRO");
+			System.out.println("NOVEMBRO");
+			System.out.println("DEZEMBRO");
+			
+			break;
+			
+		case 5:
+			
+			System.out.println("MÊS SELECIONADO : --> MAIO");
+			System.out.println("FALTAM OS MESES ABAIXO...");
+			System.out.println("JUNHO");
+			System.out.println("JULHO");
+			System.out.println("AGOSTO");
+			System.out.println("SETEMBRO");
+			System.out.println("OUTUBRO");
+			System.out.println("NOVEMBRO");
+			System.out.println("DEZEMBRO");
+			
+			break;
+			
+		case 6:
+			
+			System.out.println("MÊS SELECIONADO : --> JUNHO");
+			System.out.println("FALTAM OS MESES ABAIXO...");
+			System.out.println("JULHO");
+			System.out.println("AGOSTO");
+			System.out.println("SETEMBRO");
+			System.out.println("OUTUBRO");
+			System.out.println("NOVEMBRO");
+			System.out.println("DEZEMBRO");
+			
+			break;
+			
+		case 7:
+		
+			System.out.println("MÊS SELECIONADO : --> JULHO");
+			System.out.println("FALTAM OS MESES ABAIXO...");
+			System.out.println("AGOSTO");
+			System.out.println("SETEMBRO");
+			System.out.println("OUTUBRO");
+			System.out.println("NOVEMBRO");
+			System.out.println("DEZEMBRO");
+			
+			break;
+			
+		case 8:
+			
+			System.out.println("MÊS SELECIONADO : --> AGOSTO");
+			System.out.println("FALTAM OS MESES ABAIXO...");
+			System.out.println("SETEMBRO");
+			System.out.println("OUTUBRO");
+			System.out.println("NOVEMBRO");
+			System.out.println("DEZEMBRO");
+			
+			break;
+			
+		case 9:
+			
+			System.out.println("MÊS SELECIONADO : --> SETEMBRO");
+			System.out.println("FALTAM OS MESES ABAIXO...");
+			System.out.println("OUTUBRO");
+			System.out.println("NOVEMBRO");
+			System.out.println("DEZEMBRO");
+			
+			break;
+			
+		case 10:
+			
+			System.out.println("MÊS SELECIONADO : --> OUTUBRO");
+			System.out.println("FALTAM OS MESES ABAIXO...");
+			System.out.println("NOVEMBRO");
+			System.out.println("DEZEMBRO");
+			
+			break;
+			
+		case 11:
+			
+		System.out.println("MÊS SELECIONADO : --> NOVEMBRO");
+		System.out.println("FALTAM OS MESES ABAIXO...");
+		System.out.println("DEZEMBRO");
+			
+			break;
+			
+		case 12:
+			
+			System.out.println("MÊS SELECIONADO : --> DEZEMBRO");
+			System.out.println("FALTAM OS MESES ABAIXO...");
+			System.out.println("ACABOU O ANO MANOWLO!");
+			
+			break;
+			
+		default:
+			
+			System.out.println("Mês Invalido!!!" + " Digite Números correspondente aos dias da semana!");
+			
+			break;
+		}
+		
+		scanner.close();
+		
+	}
+
+}

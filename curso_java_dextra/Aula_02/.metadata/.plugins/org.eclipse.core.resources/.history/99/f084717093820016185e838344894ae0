@@ -1,0 +1,13 @@
+package Aula02;
+
+public class Interruptor {
+
+	// Recebendo lampada da classe Lambada.
+	Lampada lampada;
+
+	public void apertar() {
+		lampada.ligar();
+		lampada.desligar();
+	}
+
+}

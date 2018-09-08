@@ -1,0 +1,21 @@
+package Aula02;
+
+public class Interruptor {
+
+	// Associação Lampada.
+	Lampada lampada;
+
+	
+	public Interruptor(Lampada lampada){
+		this.lampada = lampada;
+	}
+		
+	public void apertar() {
+		
+		if (lampada.estaLigada()){
+			lampada.desligar();
+		} else 
+
+	}
+
+}

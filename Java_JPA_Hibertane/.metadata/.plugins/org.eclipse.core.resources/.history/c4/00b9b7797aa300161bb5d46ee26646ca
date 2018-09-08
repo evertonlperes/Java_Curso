@@ -1,0 +1,44 @@
+/* Classe Servico */
+package com.dextraining.garagem.dominio;
+
+import java.util.List;
+
+import com.dextraining.garagem.dominio.veiculo.Veiculo;
+import com.dextrainning.service.GenericService;
+
+public class GaragemJPA extends GenericService<Veiculo> implements Garagem {
+	
+	public GaragemJPA(){
+		super(Veiculo.class);
+	}
+
+	@Override
+	public void salvar(Veiculo veiculo) { //estava adicionar no lugar de salvar
+		// TODO Salvar novo veiculo no banco de dados
+		// TODO IMPORTANTE: Validar duplicidade da placa do veiculo
+		super.salvar(veiculo);
+		
+	}
+
+	@Override
+	public void vender(String placa) {
+		// TODO Implementar venda de veiculo por placa
+	}
+
+	@Override
+	public Veiculo buscar(String placa) {
+		// TODO Implementar busca de veiculo por placa
+		return null;
+	}
+
+	@Override
+	public List<Veiculo> listar() {
+		// TODO: Implementar consulta que lista todos os veiculos ordenados por:
+		// marca;
+		// modelo;
+		// ano;
+		// preco;
+
+		return null;
+	}
+}

@@ -1,0 +1,25 @@
+package Aula02;
+
+public class Lampada {
+	
+	int watts;
+	String fabricante;
+
+	
+	public void ligar() {
+		
+		System.out.println("Lampada Ligada!!!");
+		
+	}	
+	
+	public void desligar() {
+		
+		System.out.println("Lampada Desligada!!!!");
+		
+	}
+	
+}
+
+
+
+

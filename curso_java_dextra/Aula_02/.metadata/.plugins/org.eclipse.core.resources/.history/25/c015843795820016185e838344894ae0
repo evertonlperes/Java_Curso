@@ -1,0 +1,38 @@
+package Aula02;
+
+public class Lampada {
+	
+	int watts;
+	String fabricante;
+
+	
+	public Lampada(int watts, String fabricante){
+		
+		this.watts = watts;
+		this.fabricante = fabricante;
+						
+	}
+	
+	@Override
+	public String toString() {
+		return watts + fabricante;
+	}
+	
+	
+	public void ligar() {
+		
+		System.out.println("Lampada Ligada!!!");
+		
+	}	
+	
+	public void desligar() {
+		
+		System.out.println("Lampada Desligada!!!!");
+		
+	}
+	
+}
+
+
+
+

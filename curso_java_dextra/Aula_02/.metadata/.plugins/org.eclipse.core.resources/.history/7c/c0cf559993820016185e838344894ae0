@@ -1,0 +1,21 @@
+package Aula02;
+
+import java.util.Scanner;
+
+public class TestaLampada {
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Potencia da Lampada (W): ");
+		int watts = scanner.nextInt();
+		
+		System.out.println("Fabricante da Lampada: ");
+		String fabricante = scanner.next();
+			
+		Lampada lampada = new Lampada(watts, fabricante);
+		
+		
+	}
+
+}

@@ -1,0 +1,82 @@
+/* Classe Servico */
+package com.dextraining.garagem.dominio;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.NoResultException;
+import javax.persistence.TypedQuery;
+
+import com.dexraining.garagem.jpa.EntityManagerUtil;
+import com.dextraining.garagem.dominio.veiculo.Veiculo;
+import com.dextraining.garagem.exception.VeiculoDuplicadoException;
+import com.dextrainning.service.GenericService;
+
+public class GaragemJPA extends GenericService<Veiculo> implements Garagem {
+
+	public GaragemJPA() {
+		super(Veiculo.class);
+	}
+
+	@Override
+	public void salvar(Veiculo veiculo) { // estava adicionar no lugar de salvar
+		// TODO Salvar novo veiculo no banco de dados
+		// TODO IMPORTANTE: Validar duplicidade da placa do veiculo
+
+		/*if (buscar("placa") == null) {
+			throw new VeiculoDuplicadoException();
+		}*/
+
+		super.salvar(veiculo);
+
+	}
+
+	@Override
+	public void vender(String placa) {
+		// TODO Implementar venda de veiculo por placa
+		EntityManager em = EntityManagerUtil.criarEntityManager();
+		try {
+			String jpql = "DELETE v FROM Veiculo v WHERE v.placa =:placa";
+			TypedQuery<Veiculo> query = em.createQuery(jpql, Veiculo.class);
+			query.setParameter("placa", placa);
+		} catch (NoResultException e) {
+
+		}
+	}
+
+	@Override
+	public Veiculo buscar(String placa) {
+		// TODO Implementar busca de veiculo por placa
+		EntityManager em = EntityManagerUtil.criarEntityManager();
+		try {
+			String jpql = "SELECT v FROM Veiculo v WHERE v.placa =:placa";
+			TypedQuery<Veiculo> query = em.createQuery(jpql, Veiculo.class);
+			query.setParameter("placa", placa);
+			return query.getSingleResult();
+		} catch (NoResultException e) {
+			return null;
+		} finally {
+			em.close();
+		}
+	}
+
+	@Override
+	public List<Veiculo> listar() {
+		// TODO: Implementar consulta que lista todos os veiculos ordenados por:
+		// marca;
+		// modelo;
+		// ano;
+		// preco;
+		EntityManager em = EntityManagerUtil.criarEntityManager();
+		try {
+			String jpql = "SELECT v FROM Veiculo v ORDER BY v.marca, v.modelo, v.ano, v.preco";
+			TypedQuery<Veiculo> query = em.createQuery(jpql, Veiculo.class);
+			return query.getResultList();
+		} catch (NoResultException e) {
+			return null;
+		} finally {
+			em.close();
+		}
+
+	}
+}

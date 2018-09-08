@@ -1,0 +1,34 @@
+package Aula02;
+
+import java.util.Scanner;
+
+public class TestarPessoa {
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		// Instanciando a classe Pessoa.
+		Pessoa pessoa = new Pessoa();
+		
+		System.out.println("Digite o nome: ");
+		pessoa.nome = scanner.next();
+
+		//System.out.println("Returned... " + pessoa.nome);
+		
+		System.out.println("Digite o RG: ");
+		pessoa.rg = scanner.nextInt();
+		
+		//System.out.println("Returned... " + pessoa.rg);
+		
+		System.out.println("Digite o CPF: ");
+		pessoa.cpf = scanner.nextInt();
+		
+		//System.out.println("Returned... " + pessoa.cpf);
+
+		System.out.println("Valores capturados da Classe Pessoa: ");
+		System.out.println(pessoa.nome + " -- "+ pessoa.rg + " -- "+ pessoa.cpf );
+		scanner.close();
+		
+		
+	}
+}
